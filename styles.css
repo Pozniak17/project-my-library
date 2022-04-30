@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.general-wrapper {
+  display: flex;
+}
+
+.left-wrap {
+  width: 40%;
+  background-color: plum;
+  padding-left: 20px;
+}
+
+.rigth-wrap {
+  width: 60%;
+  background-color: goldenrod;
+}
+
+.heading {
+  text-align: center;
+}
+
+.add-btn {
+  margin-left: auto;
+  margin-right: 20px;
+
+  color: rgb(35, 21, 57);
+  background-color: chartreuse;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.add-btn:focus,
+.add-btn:hover {
+  color: gold;
+  background-color: crimson;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.list-container {
+  margin-left: auto;
+  padding-right: 20px;
+}
+
+.item-btn {
+  border-radius: 8px;
+  border: inherit;
+  background-color: aqua;
+  padding: 5px;
+
+  cursor: pointer;
+}
+
+.item-btn:hover,
+.item-btn:focus {
+  color: crimson;
+  background-color: darkkhaki;
+}
