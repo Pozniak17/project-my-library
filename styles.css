@@ -64,3 +64,7 @@ body {
   color: crimson;
   background-color: darkkhaki;
 }
+
+.list-text {
+  cursor: pointer;
+}

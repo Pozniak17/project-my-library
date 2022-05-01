@@ -71,7 +71,7 @@ function renderList() {
   const markup = books
     .map(({ title }) => {
       return `<li class="list-item">
-            <p>${title}</p>
+            <p class="list-text">${title}</p>
             <div class="list-container">
             <button class="item-btn" type="button">Редагувати</button>
             <button class="item-btn" type="button">Видалити</button>
@@ -84,4 +84,4 @@ function renderList() {
 
 renderList();
 
-// 1.33.04
+// 1.50.00
